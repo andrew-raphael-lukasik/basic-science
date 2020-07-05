@@ -1,4 +1,4 @@
-# Structures and syntax that helps with basic scientific calculations in [Unity](http://unity.com/)
+# Structures and syntax to help with basic scientific calculations in [Unity](http://unity.com/)
 
 ```csharp
 Using SI;
