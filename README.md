@@ -14,3 +14,16 @@ var speed = (m) 100 / (s) 3.1;// [m/s]
 var heat = (W) 500 * (min) 60;// [J]
 var tesla_accel = (mps)(kmph) 96.56 / (s) 2.3;// [m/s^2]
 ```
+
+# Instalation
+Add this line in `manifest.json` / `dependencies`:
+```
+"dependencies": {
+    "com.andrewraphaellukasik.basicscience": "https://github.com/andrew-raphael-lukasik/basic-science.git#upm",
+}
+```
+
+Or via `Package Manager` / `Add package from git uURL`:
+```
+https://github.com/andrew-raphael-lukasik/basic-science.git#upm
+```
