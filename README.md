@@ -23,7 +23,7 @@ Add this line in `manifest.json` / `dependencies`:
 }
 ```
 
-Or via `Package Manager` / `Add package from git uURL`:
+Or via `Package Manager` / `Add package from git URL`:
 ```
 https://github.com/andrew-raphael-lukasik/basic-science.git#upm
 ```
