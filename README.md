@@ -1,9 +1,9 @@
-# Structures and syntax that helps with basic scientific calculations in C#
+# Structures and syntax that helps with basic scientific calculations in [Unity](http://unity.com/)
 
-Examples:
 ```csharp
 // conversion:
-m earth_sun_avg_dist = (AU) 1.0;
+ly alfa_centauri_dist = (parsec) 1.34;
+deg radian_in_degrees = (rad) 1.0;
 s sidereal_day = (h) 23.9344696;
 
 // units from calculation:
