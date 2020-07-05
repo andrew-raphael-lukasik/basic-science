@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEditor;
 #endif
 
-namespace Game.Models.CelestialMechanics.Units
+namespace SI
 {
 	/// <summary> (kg^2*m^4)/s^2 </summary>
 	[System.Serializable]

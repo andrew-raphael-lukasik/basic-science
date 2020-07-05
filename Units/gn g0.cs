@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using Unity.Mathematics;
 
-namespace Game.Models.CelestialMechanics.Units
+namespace SI
 {
 	
 	/// <summary> Nominal gravitational acceleration of an object in a vacuum near the surface of the Earth. </summary>

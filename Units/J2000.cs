@@ -9,7 +9,7 @@ using UnityEditor;
 #endif
 
 
-namespace Game.Models.CelestialMechanics.Units
+namespace SI
 {
 	/// <summary> Seconds since 2000.I.01 12:00:00 </summary>
 	[System.Serializable]

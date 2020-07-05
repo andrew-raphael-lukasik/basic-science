@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEditor;
 #endif
 
-namespace Game.Models.CelestialMechanics.Units
+namespace SI
 {
 	/// <summary> m^3/(kg*s^2), gravitational constant G uses this unit </summary>
 	[System.Serializable]

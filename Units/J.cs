@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEditor;
 #endif
 
-namespace Game.Models.CelestialMechanics.Units
+namespace SI
 {
 	/// <summary> Joule, unit of energy [kg·m^2/s^2] </summary>
 	[System.Serializable]

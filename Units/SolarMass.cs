@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEditor;
 #endif
 
-namespace Game.Models.CelestialMechanics.Units
+namespace SI
 {
 	
 	// solar mass = (Kg) 1.988435e30;

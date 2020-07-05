@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEditor;
 #endif
 
-namespace Game.Models.CelestialMechanics.Units
+namespace SI
 {
 	/// <summary> Radian per second </summary>
 	[System.Serializable]

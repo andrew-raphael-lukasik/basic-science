@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEditor;
 #endif
 
-namespace Game.Models.CelestialMechanics.Units
+namespace SI
 {
 	// Reason for this struct:
 	// 		(0,0): Burst error BC1045: Struct `System.DateTime` with auto layout is not supported

@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEditor;
 #endif
 
-namespace Game.Models.CelestialMechanics.Units
+namespace SI
 {
 	// https://en.wikipedia.org/wiki/Pascal_(unit)
 	/// <summary> Pascal, pressure unit, SI kg⋅m−1⋅s−2 </summary>
