@@ -35,6 +35,7 @@ namespace BasicScience
 		public static m operator / ( m a , double b ) => (m)( a.Value / b );
 			public static m operator / ( double a , m b ) => (m)( a / b.Value );
 
+		public m Abs => (m) this.abs;			public double abs => math.abs( this.Value );
 		public m2 Pow2 => (m2) this.pow2;		public double pow2 => math.pow( this.Value , 2.0 );
 		public m3 Pow3 => (m3) this.pow3;		public double pow3 => math.pow( this.Value , 3.0 );
 
