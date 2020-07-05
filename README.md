@@ -1,7 +1,7 @@
 # Structures and syntax to help with basic scientific calculations in [Unity](http://unity.com/)
 
 ```csharp
-Using SI;
+using SI;
 
 // conversion:
 ly alfa_centauri_dist = (pc) 1.34;
