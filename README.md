@@ -1,5 +1,4 @@
-# SI_units
-**Goal: Create structures and syntax that helps with scientific calculations in C#**
+# Structures and syntax that helps with basic scientific calculations in C#
 
 Examples:
 ```csharp
