@@ -1,0 +1,7 @@
+{
+    "name": "com.andrewraphaellukasik.basicscience",
+    "displayName": "Basic Science",
+    "version": "0.0.1",
+    "unity": "2018.3",
+    "description": "Structures and syntax to help with basic scientific calculations in Unity"
+}
