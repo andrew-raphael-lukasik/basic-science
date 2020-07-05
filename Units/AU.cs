@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEditor;
 #endif
 
-namespace SI
+namespace BasicScience
 {
 	/// <summary> Astronomical unit </summary>
 	[System.Serializable]

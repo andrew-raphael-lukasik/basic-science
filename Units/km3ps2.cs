@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEditor;
 #endif
 
-namespace SI
+namespace BasicScience
 {
 	/// <summary>
 	/// Kilometer cubed per second squared.

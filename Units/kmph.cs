@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEditor;
 #endif
 
-namespace SI
+namespace BasicScience
 {
 	
 	/// <summary> Km per hour </summary>

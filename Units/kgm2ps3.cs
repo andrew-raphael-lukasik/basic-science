@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEditor;
 #endif
 
-namespace SI
+namespace BasicScience
 {
 	/// <summary> kg*m^2/s^3 </summary>
 	[System.Serializable]

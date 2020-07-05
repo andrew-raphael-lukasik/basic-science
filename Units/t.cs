@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEditor;
 #endif
 
-namespace SI
+namespace BasicScience
 {
 	/// <summary> Tonne, SI gram * 1e6 </summary>
 	[System.Serializable]

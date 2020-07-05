@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEditor;
 #endif
 
-namespace SI
+namespace BasicScience
 {
 	/// <summary> arc minute (angle), 1[deg]/60 </summary>
 	[System.Serializable]

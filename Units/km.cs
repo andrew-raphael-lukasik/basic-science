@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEditor;
 #endif
 
-namespace SI
+namespace BasicScience
 {
 	/// <summary> Kilometer, SI meter * 1e3 </summary>
 	[System.Serializable]

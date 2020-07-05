@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEditor;
 #endif
 
-namespace SI
+namespace BasicScience
 {
 	// https://en.wikipedia.org/wiki/Parsec
 	[System.Serializable]

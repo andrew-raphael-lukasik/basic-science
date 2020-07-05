@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEditor;
 #endif
 
-namespace SI
+namespace BasicScience
 {
 	// https://en.wikipedia.org/wiki/Light-year
 	/// <summary> Light year </summary>

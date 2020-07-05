@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEditor;
 #endif
 
-namespace SI
+namespace BasicScience
 {
 	/// <summary> (kg*m^2)/s^2, also 1J </summary>
 	[System.Serializable]

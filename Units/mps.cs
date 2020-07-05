@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEditor;
 #endif
 
-namespace SI
+namespace BasicScience
 {
 	
 	/// <summary> Meters per second </summary>
@@ -70,7 +70,14 @@ namespace SI
 
 		// delta V operators:
 		public static mps_vector operator + ( mps_vector velocity , mps delta ) => (mps_vector)( velocity.Value + ( velocity.normalized * delta.Value ) );
-		public static mps_vector operator + ( mps_vector velocity , (mps_vector vector,float3 up) delta ) => (mps_vector)( velocity.Value + quaternion.LookRotation( (float3)velocity.normalized , delta.up ).Rotate( (double3)delta.vector ) );
+		public static mps_vector operator + ( mps_vector velocity , (mps_vector vector,float3 up) delta )
+		{
+			quaternion q = quaternion.LookRotation( (float3) velocity.normalized , delta.up );
+			double3 v = (double3) delta.vector;
+			double3 t = 2.0 * math.cross(q.value.xyz, v);
+			double3 dir = v + q.value.w * t + math.cross( q.value.xyz , t );
+			return (mps_vector)( velocity.Value + dir );
+		}
 
 		public mps_vector Normalized => (mps_vector) this.normalized;
 		public double3 normalized => math.normalize( this.Value );

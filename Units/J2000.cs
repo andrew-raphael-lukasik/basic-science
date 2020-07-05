@@ -9,7 +9,7 @@ using UnityEditor;
 #endif
 
 
-namespace SI
+namespace BasicScience
 {
 	/// <summary> Seconds since 2000.I.01 12:00:00 </summary>
 	[System.Serializable]

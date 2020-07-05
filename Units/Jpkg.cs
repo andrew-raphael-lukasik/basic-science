@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEditor;
 #endif
 
-namespace SI
+namespace BasicScience
 {
 	/// <summary> Specific kinetic energy. J/kg is equivalent to m2/s2 </summary>
 	[System.Serializable]
