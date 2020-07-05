@@ -33,6 +33,7 @@ namespace SI
 		public static mps operator * ( mps a , double b ) => (mps)( a.Value * b );
 			public static mps operator * ( double a , mps b ) => (mps)( a * b.Value );
 		public static mps operator / ( mps a , double b ) => (mps)( a.Value / b );
+		public static mps2 operator / ( mps a , s b ) => (mps2)( a.Value / b.Value );
 
 		public double sqrt => math.sqrt( this.Value );
 		public double pow2 => math.pow( this.Value , 2.0 );
