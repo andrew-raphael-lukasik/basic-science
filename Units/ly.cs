@@ -19,7 +19,8 @@ namespace Game.Models.CelestialMechanics.Units
 		public static explicit operator double ( ly val ) => val.Value;
 		public static explicit operator ly ( double val ) => new ly{ Value=val };
 
-		public static implicit operator ly ( m val ) => new ly{ Value = val.Value / meters.Value };
+		public static implicit operator ly ( m val ) => (ly)( val / meters );
+		public static implicit operator ly ( pc val ) => (ly)(m)(pc) val;
 		
 		public static bool operator > ( ly lhs , ly rhs ) => lhs.Value > rhs.Value;
 		public static bool operator < ( ly lhs , ly rhs ) => lhs.Value < rhs.Value;
