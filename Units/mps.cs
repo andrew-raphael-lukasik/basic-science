@@ -17,7 +17,7 @@ namespace SI
 		public static explicit operator double ( mps val ) => val.Value;
 		public static explicit operator mps ( double dbl ) => new mps{ Value=dbl };
 
-		public static implicit operator mps ( kmph val ) => (mps)( val.Value * 3.6d );
+		public static implicit operator mps ( kmph val ) => (mps)( val.Value / 3.6d );
 		public static implicit operator mps ( kmps val ) => (mps)( val.Value * 1000d );
 
 		public static mps operator - ( mps val ) => (mps)( -val.Value );

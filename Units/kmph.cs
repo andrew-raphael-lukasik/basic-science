@@ -17,10 +17,10 @@ namespace SI
 		public static explicit operator double ( kmph val ) => val.Value;
 		public static explicit operator kmph ( double dbl ) => new kmph{ Value=dbl };
 
-		public static implicit operator kmph ( mps val ) => new mps{ Value = val.Value / 3.6d };
-
-		public static kmph operator + ( kmph a , kmph b ) => new kmph{ Value = a.Value + b.Value };
-		public static kmph operator - ( kmph a , kmph b ) => new kmph{ Value = a.Value - b.Value };
+		public static implicit operator kmph ( mps val ) => (kmph)( val.Value * 3.6d );
+		
+		public static kmph operator + ( kmph a , kmph b ) => (kmph)( a.Value + b.Value );
+		public static kmph operator - ( kmph a , kmph b ) => (kmph)( a.Value - b.Value );
 
 		const string _unit = "km/h";
 		public override string ToString () => $"{Value} [{_unit}]";
