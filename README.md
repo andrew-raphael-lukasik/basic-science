@@ -1,4 +1,6 @@
 # Structures and syntax to help with basic scientific calculations in [Unity](http://unity.com/)
+Note: List of operations and conversion is not complete, I'm adding them manually one by one depending on what's needed.
+**`Issues` and `Pull requests` are welcome.**
 
 ```csharp
 using BasicScience;
