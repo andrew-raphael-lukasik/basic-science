@@ -37,6 +37,8 @@ namespace BasicScience
 			public double tan => math.tan( this.Value );
 		public rad Abs => (rad) this.abs;
 			public double abs => math.abs( this.Value );
+		public rad ModTau => (rad) this.modtau;
+			public double modtau => this.Value % ( 2.0 * math.PI_DBL );
 
 		const string _unit = "rad";
 		public override string ToString () => $"{Value} [{_unit}]";
