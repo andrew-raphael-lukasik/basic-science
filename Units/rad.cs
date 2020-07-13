@@ -33,6 +33,8 @@ namespace BasicScience
 			public double sin => math.sin( this.Value );
 		public rad Cos => (rad) this.cos;
 			public double cos => math.cos( this.Value );
+		public rad Tan => (rad) this.tan;
+			public double tan => math.tan( this.Value );
 		public rad Abs => (rad) this.abs;
 			public double abs => math.abs( this.Value );
 
