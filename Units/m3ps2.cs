@@ -17,6 +17,7 @@ namespace BasicScience
 		public static explicit operator double ( m3ps2 m3ps2 ) => m3ps2.Value;
 		public static implicit operator m3ps2 ( km3ps2 val ) => (m3ps2)( val.Value * 1e9 );
 		public static implicit operator m3ps2 ( kg val ) => (m3ps2)( G.Value * val.Value );
+		public static implicit operator m3ps2 ( t val ) => (m3ps2)(kg)val;
 
 		public static m3ps2 operator - ( m3ps2 a ) => new m3ps2{ Value = -a.Value };
 		public static m3ps2 operator + ( m3ps2 a , m3ps2 b ) => new m3ps2{ Value = a.Value + b.Value };
