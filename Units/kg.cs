@@ -15,9 +15,9 @@ namespace BasicScience
 
 		public static explicit operator kg ( double dbl ) => new kg{ Value=dbl };
 		public static explicit operator double ( kg kg ) => kg.Value;
-		public static implicit operator kg ( t tons ) => new kg{ Value = tons.Value * 1e3 };
-		public static implicit operator kg ( km3ps2 gm ) => gm.Value!=0 ? new kg{ Value = ( gm.Value * 1e9 ) / G.Value } : (kg)0d;//gm
-		public static implicit operator kg ( m3ps2 gm ) => gm.Value!=0 ? new kg{ Value = gm.Value / G.Value } : (kg)0d;//gm
+		public static implicit operator kg ( t tons ) => (kg)( tons.Value * 1e3 );
+		public static implicit operator kg ( km3ps2 gm ) => gm.Value!=0 ? (kg)( ( gm.Value * 1e9 ) / G.Value ) : (kg)0d;
+		public static implicit operator kg ( m3ps2 gm ) => gm.Value!=0 ? (kg)( gm.Value / G.Value ) : (kg)0d;
 
 		public static kg operator + ( kg a , kg b ) => new kg{ Value = a.Value + b.Value };
 		public static kg operator - ( kg a , kg b ) => new kg{ Value = a.Value - b.Value };
