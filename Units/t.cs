@@ -16,7 +16,12 @@ namespace BasicScience
 		public static explicit operator double ( t val ) => val.Value;
 		public static explicit operator t ( double dbl ) => new t{ Value=dbl };
 		public static implicit operator t ( kg kg ) => new t{ Value = kg.Value * 1e-3 };
-
+		public static implicit operator t ( km3ps2 gm ) => (t)(kg)gm;
+		public static implicit operator t ( m3ps2 gm ) => (t)(kg)gm;
+		
+		public static t operator + ( t a , t b ) => (t)( a.Value + b.Value );
+		public static t operator - ( t a , t b ) => (t)( a.Value - b.Value );
+		
 		public override string ToString () => $"{Value} [t]";
 	}
 
