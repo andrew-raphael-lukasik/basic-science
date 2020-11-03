@@ -17,7 +17,7 @@ var heat = (W) 500 * (min) 60;// [J]
 var tesla_accel = (mps)(kmph) 96.56 / (s) 2.3;// [m/s^2]
 ```
 
-# Instalation
+# Installation
 Add this line in `manifest.json` / `dependencies`:
 ```
 "dependencies": {
