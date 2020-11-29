@@ -18,6 +18,9 @@ namespace BasicScience
 		public static implicit operator km ( AU au ) => new km{ Value = au.Value * 149597870.700d };
 		public static implicit operator km ( m meters ) => new km{ Value = meters.Value * 1e-3 };
 		
+		public static bool operator > ( km a , km b ) => a.Value > b.Value;
+		public static bool operator < ( km a , km b ) => a.Value < b.Value;
+		
 		public static km operator + ( km a , km b ) => new km{ Value = a.Value + b.Value };
 		public static km operator * ( km a , double b ) => new km{ Value = a.Value * b };
 		public static double operator / ( km a , km b ) => a.Value / b.Value;
