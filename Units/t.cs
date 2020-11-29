@@ -19,6 +19,9 @@ namespace BasicScience
 		public static implicit operator t ( km3ps2 gm ) => (t)(kg)gm;
 		public static implicit operator t ( m3ps2 gm ) => (t)(kg)gm;
 		
+		public static bool operator > ( t a , t b ) => a.Value > b.Value;
+		public static bool operator < ( t a , t b ) => a.Value < b.Value;
+		
 		public static t operator + ( t a , t b ) => (t)( a.Value + b.Value );
 		public static t operator - ( t a , t b ) => (t)( a.Value - b.Value );
 		
