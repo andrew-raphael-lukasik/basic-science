@@ -19,6 +19,7 @@ namespace BasicScience
 
 		public static radps operator + ( radps a , radps b ) => new radps{ Value = a.Value + b.Value };
 		public static radps operator - ( radps a , radps b ) => new radps{ Value = a.Value - b.Value };
+		public static rad operator * ( radps a , s b ) => new rad{ Value = a.Value * b.Value };
 
 		const string _unit = "rad/s";
 		public override string ToString () => $"{Value} [{_unit}]";
